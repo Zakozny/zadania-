@@ -7,87 +7,114 @@
     <title>Strona Alana Matłacha</title>
 </head>
 <body bgcolor="lightgreen">
-    <!-- Alan Matłach ZSE klasa 1kp-->
+    <!-- Alan Matłach ZSE klasa -->
 
     <br><br><br>
-    <h1>Poniżej są trzy wyliczenia z różnymi znakami wyliczenia</h1>
+    <h1>poniżej są trzy wyliczenia z różnymi znakami wyliczenia</h1>
     <h1>Ty zaproponuj swoje, związane z informatyką</h1>
 
-    <UL TYPE=square>
-        <LI><b>Pogrubienie: &lt;b&gt; tekst &lt;/b&gt;</b></LI>
-        <LI><i>Kursywa: &lt;i&gt; tekst &lt;/i&gt;</i></LI>
-        <LI><u>Podkreślenie: &lt;u&gt; tekst &lt;/u&gt;</u></LI>
-    </UL>
+    <ul type="square">
+        <li><b>Pogrubienie: &lt;b&gt;  &lt;/b&gt;</b></li>
+        <li><i>Kursywa: &lt;i&gt;  &lt;/i&gt;</i></li>
+        <li><u>Podkreślenie: &lt;u&gt;  &lt;/u&gt;</u></li>
+    </ul>
 
-    <UL TYPE=circle>
-        <LI><strike>Przekreślenie: &lt;strike&gt; tekst &lt;/strike&gt;</strike></LI>
-        <LI>Indeks górny: x<sup>2</sup> = &lt;sup&gt; tekst &lt;/sup&gt;</LI>
-        <LI>Indeks dolny: H<sub>2</sub>SO<sub>4</sub> = &lt;sub&gt; tekst &lt;/sub&gt;</LI>
-    </UL>
+    <ul type="circle">
+        <li><strike>Przekreślenie: &lt;strike&gt;  &lt;/strike&gt;</strike></li>
+        <li>Indeks górny: &lt;sup&gt;  &lt;/sup&gt;</li>
+        <li>Indeks dolny: &lt;sub&gt;  &lt;/sub&gt;</li>
+    </ul>
 
-    <UL TYPE=disc>
-        <LI>Nowa linia: &lt;br&gt;</LI>
-        <LI>Spacja niełamliwa: &amp;nbsp;</LI>
-        <LI>Znak specjalny: &amp;copy;</LI>
-    </UL>
+    <ul type="disc">
+        <li>Przejście do nowego wiersza w tekście: &lt;br&gt;</li>
+        <li>Zapobieganie automatycznemu przenoszeniu fragmentu tekstu do nowego wiersza: &lt;nobr&gt;  &lt;/nobr&gt;</li>
+        <li>Spacja niełamliwa: &amp;nbsp;</li>
+    </ul>
 
     <br><br><br>
-    <h2>Poniżej są trzy numerowania z różnymi znakami numerowania</h2>
+    <h2>poniżej są trzy numerowania z różnymi znakami numerowania</h2>
     <h2>Ty zaproponuj swoje, związane z informatyką</h2>
 
-    <OL TYPE=1 START=14>
-        <LI>Protokoły sieciowe</LI>
-        <LI>Systemy operacyjne</LI>
-        <LI>Języki programowania</LI>
-    </OL>
+    <ol type="1" start="14">
+        <li>&lt;H1&gt; Będzie największym nagłówkiem.</li>
+        <li>&lt;H2&gt; ... &lt;H5&gt; Będą coraz mniejsze.</li>
+        <li>&lt;H6&gt; Będzie najmniejszym nagłówkiem</li>
+    </ol>
 
-    <OL TYPE=A START=14>
-        <LI>HTML - struktura strony</LI>
-        <LI>CSS - stylowanie</LI>
-        <LI>JavaScript - interaktywność</LI>
-    </OL>
+    <ol type="A" start="14">
+        <li>&lt;font size="wielkość czcionki"&gt;</li>
+        <li>&lt;font color="kolor czcionki"&gt;</li>
+        <li>&lt;font face="rodzaj czcionki"&gt;</li>
+    </ol>
 
-    <OL TYPE=I START=14>
-        <LI>Routery</LI>
-        <LI>Switche</LI>
-        <LI>Access Pointy</LI>
-    </OL>
+    <ol type="I" start="14">
+        <li>Nazwą: red-czerwony, green-zielony, blue-niebieski</li>
+        <li>RGB: rgb(255,0,0)-czerwony, rgb(0,255,0)-zielony, rgb(0,0,255)-niebieski</li>
+        <li>Hexadecymalny, #RRGGBB: #FF0000-czerwony, #00FF00-zielony, #0000FF-niebieski</li>
+    </ol>
 
     <br><br>
-    <h3>Poniżej będą trzy poziomy numerowania/wyliczenia z różnymi rodzajami numerowania/wyliczenia</h3>
+    <h3>poniżej będą trzy poziomy numerowania/wyliczenia z różnymi rodzajami numerowania/wyliczenia</h3>
     <h3>Ty zaproponuj swoje, związane z informatyką</h3>
 
-    <OL>
-        <LI>Urządzenia komputerowe
-            <OL TYPE=A>
-                <LI>Urządzenia wejścia
-                    <UL TYPE=circle>
-                        <LI>Klawiatura</LI>
-                        <LI>Mysz</LI>
-                        <LI>Skaner</LI>
-                    </UL>
-                </LI>
-                <LI>Urządzenia wyjścia
-                    <UL TYPE=circle>
-                        <LI>Monitor
-                            <UL TYPE=square>
-                                <LI>LCD</LI>
-                                <LI>LED</LI>
-                                <LI>OLED</LI>
-                            </UL>
-                        </LI>
-                        <LI>Drukarka
-                            <UL TYPE=square>
-                                <LI>Laserowa</LI>
-                                <LI>Atramentowa</LI>
-                                <LI>Igłowa</LI>
-                            </UL>
-                        </LI>
-                    </UL>
-                </LI>
-            </OL>
-        </LI>
-    </OL>
+    <ol type="1">
+        <li>Popularne interfejsy urządzeń peryferyjnych do komputera:
+            <ol type="A">
+                <li>Interfejsy na przesył obrazu
+                    <ul type="circle">
+                        <li>HDMI
+                            <ul type="square">
+                                <li>Type A- Standard</li>
+                                <li>Type B- Dual-Link</li>
+                                <li>Type C- Mini</li>
+                                <li>Type D- Micro</li>
+                                <li>Type E- Zawiera blokującą ochronę aby kabel Typu Standard się nie ruszał</li>
+                            </ul>
+                        </li>
+                        <li>DVI
+                            <ul type="square">
+                                <li>DVI-I- Przesyła dane cyfrowe i analogowe</li>
+                                <li>DVI-D- Przesyła dane cyfrowe</li>
+                                <li>DVI-A- Przesyła dane analogowe</li>
+                            </ul>
+                        </li>
+                        <li>D-SUB
+                            <ul type="square">
+                                <li>DE-9- Standard</li>
+                                <li>DE-9M- Standard bez śrub mocujących</li>
+                                <li>DA-15- Złącze GamePort</li>
+                                <li>DE-15F- Złącze VGA, SVGA i XGA</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>Interfejsy na przesył audio
+                    <ul type="circle">
+                        <li>Jack
+                            <ul type="square">
+                                <li>Jack 6,5mm</li>
+                                <li>Jack 3,5mm (minijack)</li>
+                                <li>Jack 2,5mm (microjack)</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>Interfejsy na przesył danych
+                    <ul type="circle">
+                        <li>USB
+                            <ul type="square">
+                                <li>Type A (USB 1.0 & 2.0)</li>
+                                <li>Type B (USB 1.0 & 2.0)</li>
+                                <li>Mini A (USB 2.0)</li>
+                                <li>Mini B (USB 2.0)</li>
+                                <li>Mini AB (USB 2.0)</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        </li>
+    </ol>
 
 </body>
 </html>
